@@ -1,4 +1,5 @@
 .button_bg{
+    border: none;
     background: var(--button-color);
 }
 .button_dark-text{
@@ -8,6 +9,7 @@
     color: var(--page-bg);
 }
 .button_border{
+    background: transparent;
     border: 1px solid var(--button-color);
 }
 .button__text {

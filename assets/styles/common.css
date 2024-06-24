@@ -20,6 +20,7 @@ body {
   font-size: 1.7rem;
   color: var(--text-color);
   padding: 3.6rem 4rem;
+  position: relative;
 }
 
 .width_full {
@@ -37,7 +38,9 @@ body {
 .jc_center {
   justify-content: center;
 }
-
+.jc_end {
+  justify-content: flex-end;
+}
 .jc_space-btw {
   justify-content: space-between;
 }
@@ -62,7 +65,21 @@ body {
 .rounded_60{
   border-radius: 6rem;
 }
-
+.block_hidden{
+  display: none !important;
+}
+.mb_4{
+  margin-bottom: 0.4rem;
+}
+.mb_18{
+  margin-bottom: 1.8rem;
+}
+.mb_24{
+  margin-bottom: 2.4rem;
+}
+.mb_36{
+  margin-bottom: 3.6rem;
+}
 @media all and (max-width: 768px){
   body{
     padding: 2.4rem;

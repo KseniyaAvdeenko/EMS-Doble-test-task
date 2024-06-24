@@ -7,16 +7,38 @@
     <title>EMS Double</title>
 </head>
 <body>
+    <div class="modal d_flex jc_center ai_center">
+        <div class="modal__container d_flex flex_column ai_center rounded_10">
+            <div class="modal-button__container width_full d_flex jc_end">
+                <div class="modal__close-button rounded_10 d_flex jc_center ai_center" id="closeButton">
+                    <img src="./assets/images/close-btn.svg" alt="close-button">
+                </div>
+            </div>
+            <form class="modal__form d_flex flex_column width_full" id="modalForm">
+                <h4 class="form__heading mb_18">Войти в систему</h4>
+                <input type="text" name="email_phone" placeholder="Email/Телефон" id="emailPhone" class="form__input rounded_10 width_full mb_4">
+                <input type="password" name="password" placeholder="Пароль" id="password" class="form__input rounded_10 width_full">
+                <div class="form-input__container width_full d_flex ai_center">
+                    <input type="checkbox" name="save_password" id="savePassword">
+                    <label for="savePassword" class="checkbox__label">Запомнить пароль</label>
+                </div>
+                <div class="restore__button mb_36">Восстановить</div>
+                <button class="form__button d_flex jc_center ai_center width_full rounded_10 button_bg button_light-text mb_4">Войти</button>
+                <button class="form__button d_flex jc_center ai_center width_full rounded_10 button_border button_dark-text">Зарегестрироваться</button>
+            </form>
+        </div>
+    </div>
     <section class="main rounded_10 width_full d_flex ai_center jc_space-btw">
         <div class="main__content d_flex flex_column width_full" >
-            <h3 class="heading content__heading">Демо-версия</h3>
+            <h3 class="heading content__heading mb_18">Демо-версия</h3>
             <p class="text content__text">За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых проектов. Используя знания и накопленный опыт мы можем предложить </p>
-            <button class="content__button button_bg button_light-text rounded_60 d_flex ai_center jc_space-btw">
+            <button id="mainSectionButton" class="content__button button_bg button_light-text rounded_60 d_flex ai_center jc_space-btw">
                 <p class="button__text">Попробовать бесплатно</p>
                 <div class="button__icon image__wrapper"><img src="./assets/images/button-icon.png"></div>
             </button>
         </div>
         <div class="main__image"></div>
     </section>
+    <script src="./script.js"></script>
 </body>
 </html>

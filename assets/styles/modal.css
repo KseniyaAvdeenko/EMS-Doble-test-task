@@ -1,0 +1,73 @@
+.modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: var(--page-bg);
+}
+
+.modal__container {
+    background-color: var(--modal-bg);
+    height: fit-content;
+    padding: 2.4rem;
+    width: 50rem;
+}
+
+.modal-button__container {
+    height: fit-content;
+}
+
+.modal__close-button {
+    padding: 1.4rem;
+    background: var(--page-bg);
+    cursor: pointer;
+}
+
+.form__heading {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: #323232;
+    margin-bottom: 1.8rem;
+}
+
+.form__input {
+    height: 7.3rem;
+    padding: 2.4rem;
+    background: var(--input-bg);
+    border: none;
+    color: var(--heading-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.form__input:focus {
+    outline: none;
+}
+
+.form__input::placeholder {
+    color: var(--heading-color);
+    font-size: 1.8rem;
+}
+
+.checkbox__label {
+    margin-left: 1.4rem;
+}
+
+.form-input__container {
+    margin: 2.4rem 0;
+}
+
+.restore__button {
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--button-color);
+    cursor: pointer;
+}
+
+.form__button {
+    height: 7.3rem;
+    padding: 1.8rem;
+}
