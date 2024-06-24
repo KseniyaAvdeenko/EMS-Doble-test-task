@@ -15,7 +15,6 @@ html {
 
 body {
   background: var(--page-bg);
-  height: fit-content;
   font-family: 'Manrope', sans-serif;
   font-size: 1.7rem;
   color: var(--text-color);
@@ -79,6 +78,9 @@ body {
 }
 .mb_36{
   margin-bottom: 3.6rem;
+}
+.c_pointer{
+  cursor: pointer;
 }
 @media all and (max-width: 768px){
   body{
