@@ -1,13 +1,16 @@
-.button {
-    color: var(--page-bg);
-    padding: 1.95rem 1.2rem;
-    border-radius: 6rem;
-    border: none;
+.button_bg{
     background: var(--button-color);
 }
-
+.button_dark-text{
+    color: var(--button-color);
+}
+.button_light-text{
+    color: var(--page-bg);
+}
+.button_border{
+    border: 1px solid var(--button-color);
+}
 .button__text {
-    margin-left: 1.2rem;
     font-size: 1.8rem;
     font-weight: 500;
 }
@@ -15,4 +18,9 @@
 .button__icon {
     width: 4.4rem;
     height: 4.4rem;
+}
+@media all and (max-width: 768px){
+    .button__text {
+        font-size: 1.5rem;
+    }    
 }
